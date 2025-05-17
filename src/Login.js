@@ -16,10 +16,10 @@ const Login = () => {
             return;
         }
 
-        if (username === 'user' && password === 'pass') {
+        if (username === 'user' && password === 'password') {
             setMessage('Welcome, user!');
             setMessageColor('green');
-            setIsLoggedIn(true); // Hide form after successful login
+            setIsLoggedIn(true);
         } else {
             setMessage('Invalid username or password');
             setMessageColor('red');
